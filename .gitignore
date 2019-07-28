@@ -202,6 +202,10 @@ caffe2.egg-info
 lib/model/utils/bbox.c
 lib/pycocotools/_mask.c
 
-# 
+# virtualenv
+/venv
+
+# data & output
 /data
+/snapshots
 
