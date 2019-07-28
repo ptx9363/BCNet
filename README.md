@@ -24,6 +24,14 @@ We use VOC2007 dataset in our most experiments. We have run weakly-supervised me
 * Pretrained models, models
 * Edge boxes proposals, [data](https://drive.google.com/open?id=1YvfLfsVb0pU-51pKtRikNQ_SR-B8plMV)
 
+the final data folder should be placed like:
+
+```
+data   --- pretrained_model
+	|- VOCdevkit - VOC2007
+	|- edge_boxes_data
+```
+
 ## Citation
 
     @article{jjfaster2rcnn,
