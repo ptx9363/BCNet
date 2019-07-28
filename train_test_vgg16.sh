@@ -12,11 +12,11 @@ CUDA_VISIBLE_DEVICES=$GPU_ID python models/multi-stage-transform-label-regulariz
                    --cuda \
                    --lr_decay_step 40 \
                    --epochs 60 \
-		   --model_id 0 \
+		   --model_id 1 \
                    --pretrained_weight data/pretrained_model/vgg16_caffe.pth
 
 CUDA_VISIBLE_DEVICES=$GPU_ID python models/multi-stage-transform-label-regularization/test_net.py \
                    --dataset pascal_voc --net vgg16 \
                    --cuda \
 		   --load_dir snapshots \
-		   --checkweight model10_1_60_999.pth \
+		   --checkweight model11_1_60_999.pth \

@@ -11,13 +11,13 @@ Firstly, clone the code
 git clone https://github.com/ptx9363/BCNet.git
 ```
 
-and then follow [faster-rcnn.pytorch](https://github.com/jwyang/faster-rcnn.pytorch) 's preparation guide to install the environment and dependancy.
+and then follow [faster-rcnn.pytorch](https://github.com/jwyang/faster-rcnn.pytorch) 's preparation guide to install the environment and dependency.
 
 
 ### Prepare dataset
 We use VOC2007 dataset in our most experiments. We have run weakly-supervised method to provide pseudo bounding boxes for images in VOC2007. Some of our experiments are trained from weakly pre-trained models. In general, we provide all of pretrained models and generated labels here.
 
-* VOC2007 dataset with pseudo labels, data
+* VOC2007 dataset with pseudo labels, [data](https://drive.google.com/open?id=15ZhFEOedbjR8Z05LBJJxOzdE9SL8vVIX)
 * Pretrained models, models
 * Edge boxes proposals, data
 
