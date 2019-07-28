@@ -11,7 +11,7 @@ Firstly, clone the code
 git clone https://github.com/ptx9363/BCNet.git
 ```
 
-and then follow [faster-rcnn.pytorch](https://github.com/jwyang/faster-rcnn.pytorch) 's preparation to install the environment and dependency. This repo's specific dependencies are show below:
+and then follow [faster-rcnn.pytorch](https://github.com/jwyang/faster-rcnn.pytorch) 's preparation to install the environment and dependency. This repo's specific dependencies are shown below:
 * Python 3.5.6
 * Torch 0.4.1
 * Torchvision 0.2.1
