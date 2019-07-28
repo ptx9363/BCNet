@@ -261,7 +261,6 @@ class pascal_voc_withweak(imdb):
 
         # weak gt boxes
         filename = os.path.join(self._data_path, 'WEAKAnnotations', index + '.xml')
-        # filename = os.path.join(self._data_path, 'tempAnnotations', index + '.xml')
         if os.path.exists(filename):
             tree = ET.parse(filename)
             weak_objs = tree.findall('object')
