@@ -27,9 +27,9 @@ We use VOC2007 dataset in our most experiments. We have run weakly-supervised me
 the final data folder should be placed like:
 
 ```
-data   --- pretrained_model
-	|- VOCdevkit - VOC2007
-	|- edge_boxes_data
+BCNet/data/pretrained_model
+      data/VOCdevkit/VOC2007
+      data/edge_boxes_data
 ```
 
 ## Citation
