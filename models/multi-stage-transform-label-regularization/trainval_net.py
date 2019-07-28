@@ -51,7 +51,7 @@ def parse_args():
                         default='vgg16', type=str)
     parser.add_argument('--imdb_name', dest='imdb_name',
                         help='train imdb name',
-                        default='vocweak_2007_trainval/trainvalmid', type=str)
+                        default='vocweak_2007_trainval/trainvalmini', type=str)
     parser.add_argument('--imdbval_name', dest='imdbval_name',
                         help='validation imdb name',
                         default='vocweak_2007_test', type=str)
