@@ -1,5 +1,4 @@
 # Low Shot Box Correction for Weakly Supervised Object Detection
-Tianxiang Pan, Bin Wang, Guiguang Ding, Jungong Han, Junhai Yong
 
 This code repo is built on [faster-rcnn.pytorch](https://github.com/jwyang/faster-rcnn.pytorch). The final camera-ready paper will be available after IJCAI 2019.
 
