@@ -17,7 +17,7 @@ and then follow [faster-rcnn.pytorch](https://github.com/jwyang/faster-rcnn.pyto
 * Torchvision 0.2.1
 * Numpy 1.15.4
 
-### Prepare dataset
+## Dataset
 We use VOC2007 dataset in our most experiments. We have run weakly-supervised method, [OICR](https://github.com/ppengtang/oicr),  to provide pseudo bounding boxes for images in VOC2007. Some of our experiments are trained from weakly pre-trained models. In general, we provide all of pretrained models and generated labels here.
 
 * VOC2007 dataset with pseudo labels, [data](https://drive.google.com/open?id=15ZhFEOedbjR8Z05LBJJxOzdE9SL8vVIX)
@@ -31,6 +31,18 @@ BCNet/data/pretrained_model
       data/VOCdevkit/VOC2007
       data/edge_boxes_data
 ```
+
+## Train and Test
+From now, we have provided train&test code for BCNet with multi-stage and image-level regularization. Just run:
+
+```
+
+./train_test_vgg16.sh
+
+```
+
+All of the model modules are avaiable now while more train&test scripts will be released soon.
+
 
 ## Citation
 
