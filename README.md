@@ -36,9 +36,7 @@ BCNet/data/pretrained_model
 From now, we have provided train&test code for BCNet with multi-stage and image-level regularization. Just run:
 
 ```
-
 ./train_test_vgg16.sh
-
 ```
 
 All of the model modules are avaiable now while more train&test scripts will be released soon.
