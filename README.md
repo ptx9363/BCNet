@@ -35,6 +35,17 @@ BCNet/data/pretrained_model
 ```
 
 ## Train and Test
+Before training, the cuda libs are required to compiled by:
+
+```
+pip install cython cffi
+
+cd libs
+
+./setup.sh
+
+```
+
 From now, we have provided train&test code for BCNet with multi-stage and image-level regularization. Just run:
 
 ```
