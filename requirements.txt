@@ -10,7 +10,7 @@ matplotlib==3.0.2
 mccabe==0.6.1
 msgpack==0.6.0
 numpy==1.15.4
-opencv-python==3.4.5.20
+opencv-python==3.4.7.28
 parso==0.3.1
 Pillow==5.4.1
 protobuf==3.6.1
